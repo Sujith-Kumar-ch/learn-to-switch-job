@@ -40,6 +40,7 @@ lines = file.readlines()
 #### 3. Writing to Files
 
 After opening a file in write mode, you can write to it using the `write()` method.
+If we use this method all the content exis in the file will be removed and new content specied will be added 
 
 ```python
 file.write("Hello, World!\n")
